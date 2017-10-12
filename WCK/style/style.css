@@ -100,6 +100,7 @@ header a:hover{
     padding: 15px;
     color: #ffffff;
     background: #11100a;
+    border-top: #a7a7a7 3px solid;
 }
 
 #newsletter h1{
