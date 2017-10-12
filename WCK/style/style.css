@@ -1,13 +1,11 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 body{
     /*font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 1.5;*/
     font: 15/1.5 Arial, Helvetica, sans-serif;
-    background-color: #DFDCDC
+    background-color: #DFDCDC;
+    padding: 0;
+    margin: 0;
 }
 /*global block*/
 .container{
@@ -15,12 +13,25 @@ body{
     margin: auto;
     overflow: hidden;
 }
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button1{
+    height:38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 header{
-    background: #30234F;
+    background: #1a1a1a;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: #a7a7a7 3px solid;
 }
 
 header a{
@@ -37,4 +48,93 @@ header li{
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold; 
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+/*Showcase*/
+
+#showcase{
+    background: url("../img/back_wck.jpg") no-repeat 50% 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: #836f00;
+}
+#showcase h1{
+    margin-top: auto;
+    font-size: 55px;
+    margin-bottom: 10px;
+    /*box-shadow: 10px 10px 300px 10px rgb(15, 0, 0);*/
+}
+#showcase p{
+    font-size: 20px;
+}
+
+/*Newsletter*/
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #11100a;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/*Boxes*/
+#boxes {
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    width:30%;
+    padding: 10px;
+    text-align: center;
+}
+#boxes .box img{
+    width: 90px;
+}
+
+/*Footer*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #11100a;
+    color: #ffffff;
 }
