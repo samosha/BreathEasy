@@ -21,7 +21,7 @@ ul{
 
 .button1{
     height:38px;
-    background: #e8491d;
+    background: rgb(91,164,13);
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -62,13 +62,13 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: rgb(91,164,13);
     font-weight: bold; 
 }
 
 header a:hover{
     color: #cccccc;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 /*Showcase*/
 
