@@ -188,3 +188,7 @@ article.main-col{
       height: auto;
       z-index: -100;
     }
+    /*Media queries*/
+    @media(max-width: 768px){
+
+    }
