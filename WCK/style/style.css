@@ -26,6 +26,15 @@ ul{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.dark{
+    padding: 15px;
+    background: #1a1a1a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 header{
     background: #1a1a1a;
     color: #ffffff;
@@ -99,7 +108,7 @@ header a:hover{
 #newsletter{
     padding: 15px;
     color: #ffffff;
-    background: #11100a;
+    background: #1a1a1a;
     border-top: #a7a7a7 3px solid;
 }
 
@@ -136,6 +145,32 @@ footer{
     padding: 20px;
     margin-top: 20px;
     text-align: center;
-    background-color: #11100a;
+    background-color: #1a1a1a;
     color: #ffffff;
 }
+
+
+/*Sidebar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*Main-col*/
+article.main-col{
+    float: left;
+    width: 65%;
+}
+
+#video-background {
+    /*  making the video fullscreen  */
+      position: fixed;
+      right: 0; 
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      width: auto; 
+      height: auto;
+      z-index: -100;
+    }
