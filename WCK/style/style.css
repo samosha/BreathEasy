@@ -140,6 +140,20 @@ header a:hover{
     width: 90px;
 }
 
+/*Services*/
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #333333 1px solid;
+    margin-bottom: 5px;
+    background: #e6e6ee;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+width: 90%;
+padding: 5px;
+}
+
 /*Footer*/
 footer{
     padding: 20px;
