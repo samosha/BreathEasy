@@ -176,6 +176,7 @@ article.main-col{
     float: left;
     width: 65%;
 }
+<<<<<<< HEAD
 
 #video-background {
     /*  making the video fullscreen  */
@@ -192,3 +193,5 @@ article.main-col{
     @media(max-width: 768px){
 
     }
+=======
+>>>>>>> video-background
