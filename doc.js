@@ -18,3 +18,5 @@ https://lnkd.in/dhKSMBA
 https://lnkd.in/gcwBPwJ
 
 👉 ES6 for beginners with example - https://lnkd.in/dfDNFHv
+
+http://nnm-club.name/forum/viewtopic.php?t=1046404&start=45
